@@ -1,0 +1,46 @@
+body{
+	background: ;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+form{
+	margin: 20px auto;
+	width: 320px;
+	color:blue;
+}
+input{
+	font-size: inherit;
+	padding: 10px;
+}
+input[type=text]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+}
+select{
+	font-size: inherit;
+	padding: 10px;
+	display: block;
+	margin-bottom: 25px;
+	width: 108%;
+	border: 2px solid steelblue;
+}
+
+
+input[type=radio]{
+	margin: 0 8px 25px 18px;
+}
+input[type=radio]:first-child{
+	margin-left: 0;
+}
+
+input[type=submit]{
+	background: skyblue;
+	color: white;
+	margin: 20px auto;
+	width: 340px;
+}
