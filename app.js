@@ -6,7 +6,7 @@ app.use(express.static("public"));
 
 
 app.set("view engine","ejs");
-const port = process.env.PORT ||3000;
+const PORT = process.env.PORT ||3000;
 
 app.get("/",function(req,res){
 		res.sendfile("./public/dii.html");
@@ -14,6 +14,6 @@ app.get("/",function(req,res){
 
 
 
-app.listen(3000,()=>{
+app.listen(PORT,()=>{
 	console.log("its on ");
 })
